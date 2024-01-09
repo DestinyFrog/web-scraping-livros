@@ -1,16 +1,19 @@
 import puppeteer from "puppeteer"
 import { readFileSync, writeFile } from "fs"
-// import { setTimeout } from "timers/promises"
+import { setTimeout } from "timers/promises"
 import { join } from "path"
 import type { livro } from "./types"
 
 ( async () => {
-
 	// le arquivo com nomes dos livros
 	const livros_nomes = readFileSync(
 		join(__dirname,"..","data","livros.txt"),
 		{"encoding":"utf-8"}
-	).trim().split("\n")
+	)
+	.trim()
+	.split("\n")
+
+	const isTooBig = livros_nomes.length > 20
 
 	// colecao que vai ler 
 	let livros:livro[] = new Array( 0 )
@@ -42,8 +45,8 @@ import type { livro } from "./types"
 		console.log( livro,"-",autor,"-",data )
 
 		// espera 3.5 segundos
-		// await setTimeout( 4000 )
-
+		if ( isTooBig )
+			await setTimeout( 3500 )
 	}
 
 	console.table( livros )
@@ -59,4 +62,5 @@ import type { livro } from "./types"
 	// fecha a pagina e o navegador
 	await page.close()
 	await browser.close()
-} ).call( this )
+} )
+.call( this )
