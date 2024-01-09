@@ -1,0 +1,25 @@
+{
+  "name": "ts_environment",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "um simples ambiente typescript, para projetos pessoais",
+  "main": "dist/index.js",
+  "repository": "https://github.com/DestinyFrog/typescript-environment.git",
+  "author": "DestinyFrog <107517847+DestinyFrog@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx tsc && node dist",
+    "tsc": "npx tsc",
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "puppeteer": "^21.1.0"
+  },
+  "devDependencies": {
+	"typescript": "^5.2.2",
+	"@types/node": "^20.5.6",
+    "@types/readline-sync": "^1.4.4",
+    "ts-node": "^10.9.2"
+  }
+}

@@ -1,0 +1,32 @@
+[
+	{
+		"nome": "Fahrenheit 451",
+		"autor": "Ray Bradbury",
+		"ano": 1953
+	},
+	{
+		"nome": "Dom Casmurro",
+		"autor": "Machado de Assis",
+		"ano": 1899
+	},
+	{
+		"nome": "1984",
+		"autor": "George Orwell",
+		"ano": 1949
+	},
+	{
+		"nome": "Dom Quixote",
+		"autor": "Miguel de Cervantes",
+		"ano": 1605
+	},
+	{
+		"nome": "O Conto de Aia",
+		"autor": "Margaret Atwood",
+		"ano": 1985
+	},
+	{
+		"nome": "Admirável Mundo Novo",
+		"autor": "Aldous Huxley",
+		"ano": 1932
+	}
+]
