@@ -1,5 +1,12 @@
 # Pesquisados de dados de Livros
 
+<div>
+	<a href="https://www.typescriptlang.org/"><img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/de91fca307a83d75fc5b1f6ce24540454acead41/icons/TypeScript.svg" alt="typescript logo"/> </a>
+	<a href="https://pptr.dev/"> <img width="40" src="https://www.svgrepo.com/show/354228/puppeteer.svg" alt="puppeteer logo"/> </a>
+	<a href="https://nodejs.org/en"> <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/de91fca307a83d75fc5b1f6ce24540454acead41/icons/NodeJS-Dark.svg" alt="node logo"/> </a>
+	<a href="https://yarnpkg.com/"> <img width="80" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/yarnpkg_logo_icon_167944.png" alt="yarn logo"/> </a>
+</div>
+
 ### O que é
 Um programa que automatiza a pesquisa dados na web, o chamado __"Web-Scraping"__. Através da Biblioteca [Puppeteer](https://pptr.dev/) pesquisa dados no __Google__ e "procura/seleciona" os dados interessante na página HTML.
 
